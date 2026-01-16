@@ -1,8 +1,11 @@
 ''' text repeater by ashu '''
-print("enter  your word ")
+print("Enter your word:")
 text = str(input())
-print ('how many times u wanna repeat', text )
+
+print('How many times do you want to repeat:', text)
 time = int(input())
-outcome = (text +"\n") * time
-print =("HERE IS YOUR \n" + outcome)
+
+output = (text + " ") * time
+print(output.strip())
+
 
